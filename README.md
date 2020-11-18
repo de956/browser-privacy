@@ -3,6 +3,10 @@ ___
 
 :exclamation:These settings may cause problems on some sites:exclamation:
 ___
+
+- To Do:
+.1 
+
 Type in the address bar (and agree to the terms):
 <pre><code>about:config</code></pre>
 Search for parameters and set the following values:
@@ -61,9 +65,19 @@ Parameter | Value
 <code>webgl.disabled</code> | <code>**true**
 <code>webgl.enable-webgl2</code> | <code>**false**</code>
   
-- [x] [Enable Dns over https](https://wiki.mozilla.org/Trusted_Recursive_Resolver) ([DoH](https://tools.ietf.org/html/rfc8484))
+- [x] [Enable DNS over HTTPS](https://wiki.mozilla.org/Trusted_Recursive_Resolver) ([DoH](https://tools.ietf.org/html/rfc8484))
+- [For more DNS resolves over HTTPS](https://github.com/curl/curl/wiki/DNS-over-HTTPS)
 
 Parameter | Value
 --------- | ---------
 <code>network.trr.mode</code> | <code>**3**</code>
 <code>network.trr.uri</code> | <code>https://cloudflare-dns.com/dns-query</code>
+
+- [x] [Test DNSSEC](https://dnssec.vs.uni-due.de/)
+- [x] [Test DNS over HTTPS Cloudflare](https://www.cloudflare.com/en-gb/ssl/encrypted-sni/) (_if cloudflare is selected_)
+- [x] Install add-on [CanvasBlocker](https://github.com/kkapsner/CanvasBlocker) for [FireFox](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/)
+- [x] Install add-on [uBlock](https://github.com/gorhill/uBlock/) for [FireFox](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/)
+- [x] [Test](https://browserleaks.com/) | [test](https://pixelscan.net/) your Browser
+
+
+
