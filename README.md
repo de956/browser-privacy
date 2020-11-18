@@ -60,3 +60,10 @@ Parameter | Value
 --------- | ---------
 <code>webgl.disabled</code> | <code>**true**
 <code>webgl.enable-webgl2</code> | <code>**false**</code>
+  
+- [x] [Enable Dns over https](https://wiki.mozilla.org/Trusted_Recursive_Resolver) ([DoH](https://tools.ietf.org/html/rfc8484))
+
+Parameter | Value
+--------- | ---------
+<code>network.trr.mode</code> | <code>**3**</code>
+<code>network.trr.uri</code> | <code>https://cloudflare-dns.com/dns-query</code>
