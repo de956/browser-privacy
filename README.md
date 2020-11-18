@@ -4,9 +4,6 @@ ___
 :exclamation:These settings may cause problems on some sites:exclamation:
 ___
 
-- To Do:
-.1 
-
 Type in the address bar (and agree to the terms):
 <pre><code>about:config</code></pre>
 Search for parameters and set the following values:
