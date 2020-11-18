@@ -1,5 +1,6 @@
 **Setting privacy in the browser FireFox and IceCat for [PC](https://www.gnu.org/software/gnuzilla/) / [android](https://f-droid.org/en/packages/org.gnu.icecat/)**
 ___
+
 :exclamation:These settings may cause problems on some sites:exclamation:
 ___
 Type in the address bar (and agree to the terms):
@@ -7,8 +8,9 @@ Type in the address bar (and agree to the terms):
 Search for parameters and set the following values:
 
 - [x] Disable telemetry 
+
 Parameter | Value
------------- | ------------
+--------- | ------------
 <code>toolkit.telemetry.archive.enabled</code> | <code>**false**</code>
 <code>toolkit.telemetry.enabled</code> | <code>**false**</code>
 <code>toolkit.telemetry.unified</code> | <code>**false**</code>
