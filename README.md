@@ -63,7 +63,7 @@ Parameter | Value
 <code>webgl.enable-webgl2</code> | <code>**false**</code>
   
 - [x] [Enable DNS over HTTPS](https://wiki.mozilla.org/Trusted_Recursive_Resolver) ([DoH](https://tools.ietf.org/html/rfc8484))
-- [For more DNS resolves over HTTPS](https://github.com/curl/curl/wiki/DNS-over-HTTPS)
+- For more DNS resolves over HTTPS: [link](https://github.com/curl/curl/wiki/DNS-over-HTTPS) | [link](https://dnscrypt.info/public-servers/)
 
 Parameter | Value
 --------- | ---------
