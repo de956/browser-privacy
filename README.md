@@ -1,7 +1,7 @@
 **Setting privacy in the browser FireFox and IceCat for [PC](https://www.gnu.org/software/gnuzilla/) / [android](https://f-droid.org/en/packages/org.gnu.icecat/)**
 ___
 
-:exclamation:These settings may cause problems on some sites:exclamation:
+:exclamation: **These settings may cause problems on some sites** :exclamation:
 ___
 
 Type in the address bar (and agree to the terms):
@@ -46,7 +46,20 @@ Parameter | Value
 <code>services.sync.telemetry.maxPayloadCount</code> | <code> -1 </code>
 <code>services.sync.telemetry.submissionInterval</code> | <code> -1 </code>
 <code>telemetry.origin_telemetry_test_mode.enabled</code> | <code>**false**</code>
-  
+<code>gecko.handlerService.schemes.mailto.1.uriTemplate</code> | <code> empty value </code>
+<code>gecko.handlerService.schemes.mailto.2.uriTemplate</code> | <code> empty value </code>
+<code>gecko.handlerService.schemes.mailto.0.uriTemplate</code> | <code> empty value </code>
+<code>gecko.handlerService.schemes.mailto.0.name</code> | <code> empty value </code>
+<code>datareporting.healthreport.infoURL</code> | <code> empty value </code>
+<code>datareporting.healthreport.uploadEnabled</code> | <code>**false**</code>
+<code>datareporting.healthreport</code> | <code>**false**</code>
+<code>toolkit.telemetry.cachedClientID</code> | <code> empty value </code>
+<code>services.sync.prefs.sync.media.eme.enabled</code> | <code>**false**</code>
+<code>browser.search.suggest.enabled</code> | <code>**false**</code>
+<code>browser.search.suggest.enabled.private</code> | <code>**false**</code>
+<code>browser.search.suggest</code> | <code>**false**</code>
+<code>device.camera.enabled</code> | <code>**false**</code>
+    
 - [x] Disable WebRTC
 
 Parameter | Value
