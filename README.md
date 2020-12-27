@@ -126,6 +126,22 @@ Parameter | Value
 <code>browser.safebrowsing.provider.mozilla.updateURL</code> | <code>empty value</code>
 <code>browser.safebrowsing.reportPhishURL</code> | <code>empty value</code>
 <code>datareporting.policy.firstRunURL</code> | <code>empty value</code>
+<code>identity.fxaccounts.auth.uri</code> | <code>empty value</code>
+<code>identity.fxaccounts.commands.enabled</code> | <code>**false**</code>
+<code>identity.fxaccounts.enabled</code> | <code>**false**</code>
+<code>identity.fxaccounts.pairing.enabled</code> | <code>**false**</code>
+<code>identity.fxaccounts.remote.oauth.uri</code> | <code> empty value </code>
+<code>identity.fxaccounts.remote.pairing.uri</code> | <code> empty value </code>
+<code>identity.fxaccounts.remote.profile.uri</code> | <code> empty value </code>
+<code>identity.fxaccounts.remote.root</code> | <code> empty value </code>
+<code>identity.fxaccounts.service.monitorLoginUrl</code> | <code> empty value </code>
+<code>identity.mobilepromo.android</code> | <code> empty value </code>
+<code>identity.fxaccounts.toolbar.enabled</code> | <code>**false**</code>
+<code>identity.fxaccounts.useSessionTokensForOAuth</code> | <code>**false**</code>
+<code>identity.mobilepromo.ios</code> | <code> empty value </code>
+<code>identity.sendtabpromo.url</code> | <code> empty value </code>
+<code>identity.sync.tokenserver.uri</code> | <code> empty value </code>
+<code>identity.sync.useOAuthForSyncToken</code> | <code> empty value </code>
 
 
 - [x] Disable WebRTC
