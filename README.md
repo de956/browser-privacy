@@ -1,8 +1,7 @@
 **Setting privacy in the browser FireFox and IceCat for [PC](https://www.gnu.org/software/gnuzilla/) / [android](https://f-droid.org/en/packages/org.gnu.icecat/)**
-___
+---
 
 :exclamation: **These settings may cause problems on some sites** :exclamation:
-___
 
 Type in the address bar (and agree to the terms):
 <pre><code>about:config</code></pre>
@@ -176,5 +175,8 @@ Parameter | Value
 - [x] Install add-on [uBlock](https://github.com/gorhill/uBlock/) for [FireFox](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/)
 - [x] [Test](https://browserleaks.com/) | [test](https://pixelscan.net/) your Browser
 
+
+If you are using the browser [GNUzilla and IceCat](https://www.gnu.org/software/gnuzilla/) (from the [Free Software Foundation](https://www.fsf.org/))you can help the project by setting the default options.
+---
 
 
