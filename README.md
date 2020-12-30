@@ -10,7 +10,7 @@ Search for parameters and set the following values:
 
 - [x] Disable telemetry 
 
-Parameter | Value
+Params | Value
 --------- | ------------
 <code>toolkit.telemetry.archive.enabled</code> | <code>**false**</code>
 <code>toolkit.telemetry.enabled</code> | <code>**false**</code>
@@ -167,6 +167,8 @@ Parameter | Value
 --------- | ---------
 <code>network.trr.mode</code> | <code>**3**</code>
 <code>network.trr.uri</code> | <code>https://cloudflare-dns.com/dns-query</code>
+
+- After defining all parameters, check your browser add-on settings
 
 - [x] [Test DNSSEC](https://dnssec.vs.uni-due.de/)
 - [x] [Test DNS over HTTPS Cloudflare](https://www.cloudflare.com/en-gb/ssl/encrypted-sni/) (_if cloudflare is selected_)
