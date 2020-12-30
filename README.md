@@ -12,7 +12,7 @@ Search for parameters and set the following values:
 
 - [x] Disable telemetry 
 
-Params | Value
+Option | Value
 --------- | ------------
 <code>toolkit.telemetry.archive.enabled</code> | <code>**false**</code>
 <code>toolkit.telemetry.enabled</code> | <code>**false**</code>
@@ -148,7 +148,7 @@ Params | Value
 
 - [x] Disable WebRTC
 
-Parameter | Value
+Option | Value
 --------- | ---------
 <code>media.peerconnection.enabled</code> | <code>**false**</code>
 <code>media.navigator.enabled</code> | <code>**false**</code>
@@ -156,7 +156,7 @@ Parameter | Value
 
 - [x] Disable WebGL
 
-Parameter | Value
+Option | Value
 --------- | ---------
 <code>webgl.disabled</code> | <code>**true**
 <code>webgl.enable-webgl2</code> | <code>**false**</code>
@@ -165,7 +165,7 @@ Parameter | Value
 - Another way to encrypt all dns requests on your Windows / Linux / MacOS device: [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)
 - For more DNS resolves over HTTPS: [link](https://github.com/curl/curl/wiki/DNS-over-HTTPS) | [link](https://dnscrypt.info/public-servers/)
 
-Parameter | Value
+Option | Value
 --------- | ---------
 <code>network.trr.mode</code> | <code>**3**</code>
 <code>network.trr.uri</code> | <code>https://cloudflare-dns.com/dns-query</code>
