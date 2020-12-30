@@ -181,7 +181,9 @@ Parameter | Value
 
 <br />
 
-If you are using the browser [GNUzilla and IceCat](https://www.gnu.org/software/gnuzilla/) (from the [Free Software Foundation](https://www.fsf.org/))you can help the project by setting the default options.
----
+___
 
+### If you are using the browser [GNUzilla and IceCat](https://www.gnu.org/software/gnuzilla/) (from the [Free Software Foundation](https://www.fsf.org/))you can help the project by setting the default options.
+___
 
+[row](https://raw.githubusercontent.com/de956/browser-privacy/main/README.md)
