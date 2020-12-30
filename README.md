@@ -1,7 +1,10 @@
 **Setting privacy in the browser FireFox and IceCat for [PC](https://www.gnu.org/software/gnuzilla/) / [android](https://f-droid.org/en/packages/org.gnu.icecat/)**
 ---
+<br />
 
-:exclamation: **These settings may cause problems on some sites** :exclamation:
+- **These settings may cause problems on some sites** :exclamation:
+<br />
+
 
 Type in the address bar (and agree to the terms):
 <pre><code>about:config</code></pre>
@@ -172,9 +175,11 @@ Parameter | Value
 - [x] [Test DNSSEC](https://dnssec.vs.uni-due.de/)
 - [x] [Test DNS over HTTPS Cloudflare](https://www.cloudflare.com/en-gb/ssl/encrypted-sni/) (_if cloudflare is selected_)
 - [x] Install add-on [CanvasBlocker](https://github.com/kkapsner/CanvasBlocker) for [FireFox](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/)
+(_It is recommended to change 'userAgent' in 'Protect navigator API' settings_)
 - [x] Install add-on [uBlock](https://github.com/gorhill/uBlock/) for [FireFox](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/)
 - [x] [Test](https://browserleaks.com/) | [test](https://pixelscan.net/) your Browser
 
+<br />
 
 If you are using the browser [GNUzilla and IceCat](https://www.gnu.org/software/gnuzilla/) (from the [Free Software Foundation](https://www.fsf.org/))you can help the project by setting the default options.
 ---
