@@ -12,7 +12,7 @@ Search for parameters and set the following values:
 
 - [x] Disable telemetry 
 
-Option | Value
+Params | Value
 --------- | ------------
 <code>toolkit.telemetry.archive.enabled</code> | <code>**false**</code>
 <code>toolkit.telemetry.enabled</code> | <code>**false**</code>
@@ -148,7 +148,7 @@ Option | Value
 
 - [x] Disable WebRTC
 
-Option | Value
+Params | Value
 --------- | ---------
 <code>media.peerconnection.enabled</code> | <code>**false**</code>
 <code>media.navigator.enabled</code> | <code>**false**</code>
@@ -156,7 +156,7 @@ Option | Value
 
 - [x] Disable WebGL
 
-Option | Value
+Params | Value
 --------- | ---------
 <code>webgl.disabled</code> | <code>**true**
 <code>webgl.enable-webgl2</code> | <code>**false**</code>
@@ -165,7 +165,7 @@ Option | Value
 - Another way to encrypt all dns requests on your Windows / Linux / MacOS device: [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)
 - For more DNS resolves over HTTPS: [link](https://github.com/curl/curl/wiki/DNS-over-HTTPS) | [link](https://dnscrypt.info/public-servers/)
 
-Option | Value
+Params | Value
 --------- | ---------
 <code>network.trr.mode</code> | <code>**3**</code>
 <code>network.trr.uri</code> | <code>https://cloudflare-dns.com/dns-query</code>
@@ -179,6 +179,5 @@ Option | Value
 - [x] Install add-on [uBlock](https://github.com/gorhill/uBlock/) for [FireFox](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/)
 - [x] [Test](https://browserleaks.com/) | [test](https://pixelscan.net/) your Browser
 
-<br />
 
 #### If you are using the browser [GNUzilla and IceCat](https://www.gnu.org/software/gnuzilla/) (from the [Free Software Foundation](https://www.fsf.org/))you can help the project by setting the default options.
