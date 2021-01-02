@@ -178,6 +178,3 @@ Params | Value
 (_It is recommended to change 'userAgent' in 'Protect navigator API' settings_)
 - [x] Install add-on [uBlock](https://github.com/gorhill/uBlock/) for [FireFox](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/)
 - [x] [Test](https://browserleaks.com/) | [test](https://pixelscan.net/) your Browser
-
-
-#### If you are using the browser [GNUzilla and IceCat](https://www.gnu.org/software/gnuzilla/) (from the [Free Software Foundation](https://www.fsf.org/))you can help the project by setting the default options.
