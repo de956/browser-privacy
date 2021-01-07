@@ -2,7 +2,7 @@
 ---
 <br />
 
-:warning:  **These settings may cause problems on some sites**  :warning:
+- **These settings may cause problems on some sites**  :warning:
 <br />
 
 
@@ -167,6 +167,7 @@ Params | Value
 <s><code>network.trr.uri</code></s> | <s><code>https://cloudflare-dns.com/dns-query</code></s>
 - [x] <s> [Test DNS over HTTPS Cloudflare](https://www.cloudflare.com/en-gb/ssl/encrypted-sni/) (_if cloudflare is selected_) </s>
 - <s> For more DNS resolves over HTTPS: [link](https://github.com/curl/curl/wiki/DNS-over-HTTPS) </s>
+- (_DNS over HTTPS (DoH) is a secure protocol, but it does not guarantee the privacy of your requests_)
 
 - [x] Encrypt all dns requests on your Windows / Linux / MacOS device: [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) (Recommended as the best way)
 - [DNScrypt public-servers](https://dnscrypt.info/public-servers/)
@@ -181,9 +182,4 @@ Params | Value
 
 - [x] Use [DuckDuckGo](https://duckduckgo.com/) or [SearX](https://searx.github.io/searx/) as your browser's search engine
 
-- DNS over HTTPS (DoH) is a secure protocol, but it does not guarantee the privacy of your requests
-
 - Set auto-delete history in browser settings: this will slow down the speed of the browser, but increase your privacy on the network
-
-- Many settings do not affect your privacy, but they can potentially get to third parties.
-Therefore, if you, for example, want to report an add-on error in your browser, then contact the developer directly and report it
