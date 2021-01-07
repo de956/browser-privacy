@@ -2,7 +2,7 @@
 ---
 <br />
 
-- **These settings may cause problems on some sites** :exclamation:
+- **These settings may cause problems on some sites**  :warning:
 <br />
 
 
@@ -52,6 +52,7 @@ Params | Value
 <code>gecko.handlerService.schemes.mailto.2.uriTemplate</code> | <code> empty value </code>
 <code>gecko.handlerService.schemes.mailto.0.uriTemplate</code> | <code> empty value </code>
 <code>gecko.handlerService.schemes.mailto.0.name</code> | <code> empty value </code>
+<code>gecko.handlerService.schemes.mailto.1.name</code> | <code> empty value </code>
 <code>datareporting.healthreport.infoURL</code> | <code> empty value </code>
 <code>datareporting.healthreport.uploadEnabled</code> | <code>**false**</code>
 <code>datareporting.healthreport</code> | <code>**false**</code>
@@ -69,15 +70,10 @@ Params | Value
 <code>gecko.handlerService.schemes.irc.0.uriTemplate</code> | <code> empty value </code>
 <code>gecko.handlerService.schemes.ircs.0.uriTemplate</code> | <code> empty value </code>
 <code>browser.contentHandlers.types.1.uri</code> | <code>**false**</code>
-<code>gecko.handlerService.schemes.mailto.1.uriTemplate</code> | <code> empty value </code>
-<code>gecko.handlerService.schemes.mailto.2.uriTemplate</code> | <code> empty value </code>
-<code>gecko.handlerService.schemes.mailto.0.uriTemplate</code> | <code> empty value </code>
-<code>gecko.handlerService.schemes.mailto.0.name</code> | <code> empty value </code>
-<code>gecko.handlerService.schemes.mailto.1.name</code> | <code> empty value </code>
 <code>app.feedback.baseURL</code> | <code> empty value </code>
 <code>breakpad.reportURL</code> | <code> empty value </code>
 <code>browser.chrome.errorReporter.infoURL</code> | <code> empty value </code>
-<code>toolkit.crashreporter.infoURL empty value</code> | <code> empty value </code>
+<code>toolkit.crashreporter.infoURL </code> | <code> empty value </code>
 <code>distribution.id</code> | <code> empty value </code>
 <code>extensions.abuseReport.amoDetailsURL</code> | <code> empty value </code>
 <code>extensions.abuseReport.url</code> | <code> empty value </code>
@@ -96,7 +92,7 @@ Params | Value
 <code>browser.contentblocking.report.monitor.home_page_url</code> | <code> empty value </code>
 <code>browser.contentblocking.report.monitor.how_it_works.url</code> | <code> empty value </code>
 <code>browser.contentblocking.report.monitor.preferences_url</code> | <code> empty value </code>
-<code>rowser.contentblocking.report.monitor.sign_in_url</code> | <code> empty value </code>
+<code>browser.contentblocking.report.monitor.sign_in_url</code> | <code> empty value </code>
 <code>browser.contentblocking.report.monitor.url</code> | <code> empty value </code>
 <code>browser.contentblocking.report.proxy_extension.url</code> | <code>empty value</code>
 <code>browser.contentblocking.report.show_mobile_app</code> | <code>**false**</code>
@@ -162,7 +158,7 @@ Params | Value
 <code>webgl.enable-webgl2</code> | <code>**false**</code>
   
 - [x] [Enable DNS over HTTPS](https://wiki.mozilla.org/Trusted_Recursive_Resolver) ([DoH](https://tools.ietf.org/html/rfc8484))
-- Another way to encrypt all dns requests on your Windows / Linux / MacOS device: [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)
+- Another way to encrypt all dns requests on your Windows / Linux / MacOS device: [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)(Recommended as the best way)
 - For more DNS resolves over HTTPS: [link](https://github.com/curl/curl/wiki/DNS-over-HTTPS) | [link](https://dnscrypt.info/public-servers/)
 
 Params | Value
@@ -174,7 +170,15 @@ Params | Value
 
 - [x] [Test DNSSEC](https://dnssec.vs.uni-due.de/)
 - [x] [Test DNS over HTTPS Cloudflare](https://www.cloudflare.com/en-gb/ssl/encrypted-sni/) (_if cloudflare is selected_)
-- [x] Install add-on [CanvasBlocker](https://github.com/kkapsner/CanvasBlocker) for [FireFox](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/)
-(_It is recommended to change 'userAgent' in 'Protect navigator API' settings_)
-- [x] Install add-on [uBlock](https://github.com/gorhill/uBlock/) for [FireFox](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/)
+- [x] Install add-on [CanvasBlocker](https://github.com/kkapsner/CanvasBlocker) for [FireFox](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/):
+- It is recommended to change 'userAgent' => 'Protect navigator API' settings
+- Check the config in 'Settings' => 'Setting sanitation'
+- [x] Install add-on [uBlock](https://github.com/gorhill/uBlock/) for [FireFox](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/):
+- Select multiple regions to block ads
 - [x] [Test](https://browserleaks.com/) | [test](https://pixelscan.net/) your Browser
+
+- [x] Use [DuckDuckGo](https://duckduckgo.com/) or [SearX](https://searx.github.io/searx/) as your browser's search engine
+
+- Many settings do not affect your privacy, but they can potentially get to third parties.
+Therefore, if you, for example, want to report an add-on error in your browser, then contact the developer directly and report it.
+
