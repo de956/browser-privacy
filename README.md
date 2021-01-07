@@ -164,9 +164,10 @@ Params | Value
 <s><code>network.trr.mode</code></s> | <s><code>**3**</code></s>
 <s><code>network.trr.uri</code></s> | <s><code>https://cloudflare-dns.com/dns-query</code></s>
 - [x] <s> [Test DNS over HTTPS Cloudflare](https://www.cloudflare.com/en-gb/ssl/encrypted-sni/) (_if cloudflare is selected_) </s>
-- For more DNS resolves over HTTPS: [link](https://github.com/curl/curl/wiki/DNS-over-HTTPS) | [link](https://dnscrypt.info/public-servers/)
+- <s> For more DNS resolves over HTTPS: [link](https://github.com/curl/curl/wiki/DNS-over-HTTPS) </s>
 
-- [x] Another way to encrypt all dns requests on your Windows / Linux / MacOS device: [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) (Recommended as the best way)
+- [x] Encrypt all dns requests on your Windows / Linux / MacOS device: [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) (Recommended as the best way)
+- [DNScrypt public-servers](https://dnscrypt.info/public-servers/)
 
 - After defining all parameters, check your browser add-on settings
 
