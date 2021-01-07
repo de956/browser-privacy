@@ -156,6 +156,8 @@ Params | Value
 --------- | ---------
 <code>webgl.disabled</code> | <code>**true**
 <code>webgl.enable-webgl2</code> | <code>**false**</code>
+
+- After defining all parameters, check your browser add-on settings
   
 - [x] <s> [Enable DNS over HTTPS](https://wiki.mozilla.org/Trusted_Recursive_Resolver) ([DoH](https://tools.ietf.org/html/rfc8484)) </s>
 
@@ -168,8 +170,6 @@ Params | Value
 
 - [x] Encrypt all dns requests on your Windows / Linux / MacOS device: [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) (Recommended as the best way)
 - [DNScrypt public-servers](https://dnscrypt.info/public-servers/)
-
-- After defining all parameters, check your browser add-on settings
 
 - [x] [Test DNSSEC](https://dnssec.vs.uni-due.de/)
 - [x] Install add-on [CanvasBlocker](https://github.com/kkapsner/CanvasBlocker) for [FireFox](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/):
