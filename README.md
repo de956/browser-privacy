@@ -2,7 +2,7 @@
 ---
 <br />
 
-- **These settings may cause problems on some sites**  :warning:
+- :warning:  **These settings may cause problems on some sites**  :warning:
 <br />
 
 
@@ -158,7 +158,7 @@ Params | Value
 <code>webgl.enable-webgl2</code> | <code>**false**</code>
 
 - After defining all parameters, check your browser add-on settings
-  
+   
 - [x] <s> [Enable DNS over HTTPS](https://wiki.mozilla.org/Trusted_Recursive_Resolver) ([DoH](https://tools.ietf.org/html/rfc8484)) </s>
 
 Params | Value
@@ -181,8 +181,9 @@ Params | Value
 
 - [x] Use [DuckDuckGo](https://duckduckgo.com/) or [SearX](https://searx.github.io/searx/) as your browser's search engine
 
+- DNS over HTTPS (DoH) is a secure protocol, but it does not guarantee the privacy of your requests
+
 - Set auto-delete history in browser settings: this will slow down the speed of the browser, but increase your privacy on the network
 
 - Many settings do not affect your privacy, but they can potentially get to third parties.
-Therefore, if you, for example, want to report an add-on error in your browser, then contact the developer directly and report it.
-
+Therefore, if you, for example, want to report an add-on error in your browser, then contact the developer directly and report it
