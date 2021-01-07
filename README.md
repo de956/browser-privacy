@@ -157,14 +157,14 @@ Params | Value
 <code>webgl.disabled</code> | <code>**true**
 <code>webgl.enable-webgl2</code> | <code>**false**</code>
   
-- [x] [Enable DNS over HTTPS](https://wiki.mozilla.org/Trusted_Recursive_Resolver) ([DoH](https://tools.ietf.org/html/rfc8484))
-- Another way to encrypt all dns requests on your Windows / Linux / MacOS device: [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)(Recommended as the best way)
+- [x] ~~[Enable DNS over HTTPS](https://wiki.mozilla.org/Trusted_Recursive_Resolver) ([DoH](https://tools.ietf.org/html/rfc8484))~~
+- Another way to encrypt all dns requests on your Windows / Linux / MacOS device: [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) (Recommended as the best way)
 - For more DNS resolves over HTTPS: [link](https://github.com/curl/curl/wiki/DNS-over-HTTPS) | [link](https://dnscrypt.info/public-servers/)
 
 Params | Value
 --------- | ---------
-<code>network.trr.mode</code> | <code>**3**</code>
-<code>network.trr.uri</code> | <code>https://cloudflare-dns.com/dns-query</code>
+~~<code>network.trr.mode</code> | <code>**3**</code>~~
+~~<code>network.trr.uri</code> | <code>https://cloudflare-dns.com/dns-query</code>~~
 
 - After defining all parameters, check your browser add-on settings
 
