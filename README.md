@@ -163,8 +163,8 @@ Params | Value
 
 Params | Value
 --------- | ---------
-~~<code>network.trr.mode</code> | <code>**3**</code>~~
-~~<code>network.trr.uri</code> | <code>https://cloudflare-dns.com/dns-query</code>~~
+<s><code>network.trr.mode</code></s> | <s><code>**3**</code></s>
+<s>~~<code>network.trr.uri</code></s> | <s><code>https://cloudflare-dns.com/dns-query</code></s>
 
 - After defining all parameters, check your browser add-on settings
 
