@@ -179,6 +179,8 @@ Params | Value
 
 - [x] Use [DuckDuckGo](https://duckduckgo.com/) or [SearX](https://searx.github.io/searx/) as your browser's search engine
 
+- Set auto-delete history in browser settings: this will slow down the speed of the browser, but increase your privacy on the network
+
 - Many settings do not affect your privacy, but they can potentially get to third parties.
 Therefore, if you, for example, want to report an add-on error in your browser, then contact the developer directly and report it.
 
