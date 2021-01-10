@@ -2,7 +2,7 @@
 ---
 <br />
 
-- :warning: **These settings may cause problems on some sites**  :warning:
+:warning: **These settings may cause problems on some sites**  :warning:
 <br />
 
 
