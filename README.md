@@ -173,11 +173,22 @@ Params | Value
 - [DNScrypt public-servers](https://dnscrypt.info/public-servers/)
 
 - [x] [Test DNSSEC](https://dnssec.vs.uni-due.de/)
+
 - [x] Install add-on [CanvasBlocker](https://github.com/kkapsner/CanvasBlocker) for [FireFox](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/):
 - It is recommended to change 'userAgent' => 'Protect navigator API' settings
 - Check the config in 'Settings' => 'Setting sanitation'
+
 - [x] Install add-on [uBlock](https://github.com/gorhill/uBlock/) for [FireFox](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/):
 - Select multiple regions to block ads
+
+- [x] Install add-on [NoScript](https://noscript.net/) for [FireFox](https://addons.mozilla.org/en-US/firefox/addon/noscript/)
+- Open settings => 'Per-site Permissions'
+- It is recommended to exclude all addresses from the trusted ones for blocking by default.
+- Allow scripts to be executed as needed by managing NoScript settings from the add-ons panel
+
+- [x] Install add-on [HTTPS Everywhere](https://www.eff.org/https-everywhere) for [FireFox](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
+- In the add-on settings, enable the item => 'Encrypt All Sites Eligible is ON'
+
 - [x] [Test](https://browserleaks.com/) | [test](https://pixelscan.net/) your Browser
 
 - [x] Use [DuckDuckGo](https://duckduckgo.com/) or [SearX](https://searx.github.io/searx/) as your browser's search engine
