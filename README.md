@@ -183,7 +183,7 @@ Params | Value
 
 - [x] Install add-on [NoScript](https://noscript.net/) for [FireFox](https://addons.mozilla.org/en-US/firefox/addon/noscript/)
 - Open settings => 'Per-site Permissions'
-- It is recommended to exclude all addresses from the trusted ones for blocking by default.
+- It is recommended to exclude all addresses from the list of trusted addresses and switch to blocking mode by default
 - Allow scripts to be executed as needed by managing NoScript settings from the add-ons panel
 
 - [x] Install add-on [HTTPS Everywhere](https://www.eff.org/https-everywhere) for [FireFox](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
